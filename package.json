@@ -1,0 +1,32 @@
+{
+  "name": "board",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^20.0.2",
+    "@types/node": "^8.0.6",
+    "@types/react": "^15.0.33",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-redux": "^4.4.45",
+    "gh-pages": "^1.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^2.8.1",
+    "enzyme": "^2.9.1",
+    "react-addons-test-utils": "^15.6.0",
+    "react-scripts-ts": "2.3.2"
+  },
+  "homepage": "https://matthewjberger.github.io/board",
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
