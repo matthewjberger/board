@@ -1,3 +1,16 @@
+
+This was made by following the tutorial at: [https://github.com/Microsoft/TypeScript-React-Starter#adding-actions](https://github.com/Microsoft/TypeScript-React-Starter#adding-actions)
+
+# TODO: 
+
+* look into actions using redux-action
+
+* write unit test for reducer function
+
+* write tests for onIncrement and onDecrement
+
+# Description
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
